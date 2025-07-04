@@ -1,19 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-function Selection({ applyColor }) {
+function Selection({ selectedColor }) {
   const [bgStyle, setBgStyle] = useState({});
 
   const handleClick = () => {
-    const apply = applyColor(); // ✅ get latest function
-    apply(setBgStyle);          // apply color using latest background
+    setBgStyle({ backgroundColor: selectedColor });
   };
 
   return (
-    <div
-      className="fix-box"
-      style={bgStyle}
-      onClick={handleClick}
-    >
+    <div className="fix-box" style={bgStyle} onClick={handleClick}>
       <h5 className="subheading">Selection</h5>
     </div>
   );
