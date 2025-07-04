@@ -8,9 +8,13 @@ function Selection({ selectedColor }) {
   };
 
   return (
-    <div className="fix-box" style={bgStyle} onClick={handleClick}>
+    <button
+      className="fix-box"
+      style={bgStyle}
+      onClick={handleClick}
+    >
       <h5 className="subheading">Selection</h5>
-    </div>
+    </button>
   );
 }
 
