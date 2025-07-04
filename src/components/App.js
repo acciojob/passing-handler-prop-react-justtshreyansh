@@ -8,17 +8,17 @@ const colourConfig = [{
     key: 'blue',
     label: 'Blue',
     classname: 'btn-blue',
-    background: 'rgb(34, 193, 195)'
+    background: 'rgb(0, 0, 255)'
   }, {
     key: 'orange',
     label: 'Orange',
     classname: 'btn-orange',
-    background: 'rgb(221, 112, 18)'
+    background: 'rgb(255, 165, 0)'
   }, {
     key: 'green',
     label: 'Green',
     classname: 'btn-green',
-    background: 'rgb(44, 209, 88)'
+    background:'rgb(0, 128, 0)'
   }
 ]
 
